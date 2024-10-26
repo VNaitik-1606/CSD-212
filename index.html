@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/home.css">
+        <link rel="stylesheet" type="text/css" href="styles/right-containers.css">
+        <link rel="stylesheet" type="text/css" href="styles/post.css">
+        
+    </head>
+    <body>
+       <!--header-->
+        <header height="30" class="header-main">
+        
+            <div class="top">
+            
+        
+            <div class="compound">
+                <form class="search-form">
+                    <img src="images/icon.png" width="50" height="50" class="logo">
+                    <div class="search-container"><img src="images/search.svg" align="center" width="20" height="20" class="head-button-img">
+                        <input type="search" class="search" id="mySearch" name="q" placeholder="Search……" />
+                        <!--<button type="submit">Search</button>-->
+                    </div>
+                </form>
+
+
+            <div class="header-buttons">
+            <a class="home-button" href="Alumni.html"><img src="images/home.svg" height="20" width="20"><Span class="header-but-text">Home</Span><hr></a>
+            <a  class="network-button"> <img src="images/connections.png" height="20" width="20"><Span class="header-but-text">My Network</Span><hr></a>
+            <a class="jobs-button"> <img src="images/jobs.png" height="20" width="20"><Span class="header-but-text">Jobs</Span><hr></a>
+            <a class="Messaging-button"> <img src="images/message.png" height="20" width="20"><Span class="header-but-text">Messaging</Span><hr></a>
+            <a class="notification-button"> <img src="images/notification.png" height="20" width="20"><Span class="header-but-text">Notifications</Span><hr></a>
+            <a class="me-button"> <div class="me" style="background-image: url('images/me.PNG');"></div><Span class="header-but-text">Me</Span><hr></a>
+            </div>
+            <div class="header-buttons-2">
+                <!--<hr class="header-devider">-->
+            <a class="premium-button" style="padding-left: 10px;"> <img src="https://img.icons8.com/?size=100&id=hKII9SItW860&format=png&color=000000" height="20" width="20"><Span class="header-but-text">Get Premium</Span><hr></a>&nbsp
+            <a href="password.html" style="text-decoration: none;"><button class="sign-in" onclick=""> SIGN IN</button></a>
+            
+        </div>  
+        
+    </div>      
+    </div>
+        </header>
+        
+        <!--body-->
+        <div class="main-div">
+            <div class="main-containers">
+
+                <!--1 (left-container)-->
+                <div  class="main-con-one">
+                    <div class="profile-container">
+                    <div class="cover-image" style="background-image: url('images/allumni.PNG'); "> </div>
+                    <div class="cover-image-sec"><div class="profile-picture" style="background-image: url('https://img.icons8.com/?size=100&id=7820&format=png&color=000000');"></div></div>        
+                    <h3 class="user-name">Your user-name</h3>
+                    <p class="user-location">Your location here</p>
+                    <button class="experience-button"><div class="experience-div"><img src="images/cross.png" width="10" height="10"> <span>Explore</span></div></button>
+                </div>
+                <div class="premium-left">
+                    <div><p>Access Exclusive Tools And Insights</p></div>
+                    <div class="premium-img"><p><img src="images/premium.png" width="25" height="25" align="center"> <b>Get access faster with Premium</b></p></div>
+                </div>
+
+                <div class="views">
+                    <div><p><b>Profile Viewers</b></p></div>
+                    <div class="views-con"><p><b>Impressions</b></p></div>
+                </div>
+
+                <div class="saveditems-con">
+                    <div class="saveditems"><p><img src="images/saved.png" width="15" height="15" align="center">&nbsp&nbsp&nbsp&nbsp<b>Saved Items</b> </p></div>
+                    <div class="saveditems"><p><img src="images/group.png" width="15" height="15" align="center">&nbsp&nbsp&nbsp&nbsp<b>Groups</b></p></div>
+                    <div class="saveditems"><p><img src="images/events.png" width="15" height="15" align="center">&nbsp&nbsp&nbsp&nbsp<b>Events</b></p></div>
+                </div>
+                </div>
+
+
+                <!--3 (right-container)-->
+                <div  class="main-con-three">
+                    <div class="right-container">
+                    <div class="right-followers">
+                        <div class="top-title">
+                            <div class="title-text">Add To Your Community</div>
+                            <div class="more-info"><use>&#x1F6C8</use></div>
+                        </div>
+
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(images/me.PNG);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">Takudzwanashe Chigwaya</p>
+                                <p class="folower-one-job">Web Developer</p>
+                                <button class="folower-one-button" onclick="follow()"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button>
+                            </div>
+
+                        </div>
+
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(images/naitik.jpg);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">Naitik Verma</p>
+                                <p class="folower-one-job">C.E.O Shrevport,Youtuber</p>
+                                <button class="folower-one-button"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button>
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(images/satwik.jpg);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">Satwik Venkat</p>
+                                <p class="folower-one-job">Software Engineer</p>
+                                <div ><button class="folower-one-button"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button></div>
+                            </div>
+
+                            
+                        </div>
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(images/tarie.jpg);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">Tariro Chigwaya</p>
+                                <p class="folower-one-job">Software Engineer</p>
+                                <div ><button class="folower-one-button"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button></div>
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(https://img.icons8.com/?size=100&id=7820&format=png&color=000000);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">User</p>
+                                <p class="folower-one-job">Software Engineer</p>
+                                <div ><button class="folower-one-button"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button></div>
+                            </div>
+                        </div>
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(https://img.icons8.com/?size=100&id=7820&format=png&color=000000);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">User</p>
+                                <p class="folower-one-job">Software Engineer</p>
+                                <div ><button class="folower-one-button"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button></div>
+                            </div>
+                        </div>
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(https://img.icons8.com/?size=100&id=7820&format=png&color=000000);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">User</p>
+                                <p class="folower-one-job">Software Engineer</p>
+                                <div ><button class="folower-one-button"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button></div>
+                            </div>
+                        </div>
+                        <div class="follower-one">
+                            <div class="follower-picture" style="background-image: url(https://img.icons8.com/?size=100&id=7820&format=png&color=000000);"></div>
+                            <div class="follower-info">
+                                <p class="folower-one-name">User</p>
+                                <p class="folower-one-job">Software Engineer</p>
+                                <div ><button class="folower-one-button"> <center><img src="images/experience.png" width="15" height="15"> Follow</center></button></div>
+                            </div>
+                        </div>                    
+                        
+                        <div class="viewmore-con"><a href="" class="viewmore">View All Alumni<div style="margin-top: 4px;"><img src="https://img.icons8.com/?size=100&id=89230&format=png&color=000000" width="15" height="15"></div></a></div>
+                        
+                    </div>
+
+                    
+                </div>
+                <div class="ads-tab">
+                    <div><p>Ads Tab</p></div>
+                    <div class="premium-img"><p><img src="images/premium.png" width="25" height="25" align="center"> <b>Get hired faster with Premium</b></p></div>
+                </div>
+                </div>
+
+                <div>
+                <div class="far-right-con">
+                    <div class="saveditems"><p><img src="images/saved.png" width="15" height="15" align="center">&nbsp&nbsp&nbsp&nbsp<b>Saved Items</b> </p></div>
+                    <div class="saveditems"><p><img src="images/group.png" width="15" height="15" align="center">&nbsp&nbsp&nbsp&nbsp<b>Groups</b></p></div>
+                    <div class="saveditems"><p><img src="images/events.png" width="15" height="15" align="center">&nbsp&nbsp&nbsp&nbsp<b>Events</b></p></div>
+                </div>
+
+                <div class="ads-tab-sec">
+                    <div><p>Ads Tab</p></div>
+                    <div class="premium-img"><p><img src="images/premium.png" width="25" height="25" align="center"> <b>Get hired faster with Premium</b></p></div>
+                </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+        
+        
+        <script src="scripts/home.js"></script>
+
+        
+    </body>
+</html> 
