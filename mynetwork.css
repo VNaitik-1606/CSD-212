@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F3F4F6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.invitation-section,
+.suggestions-section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #1F2937;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.invitation-card,
+.suggestion-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-card img,
+.suggestion-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.accept-btn,
+.ignore-btn,
+.connect-btn {
+    background-color: #3B82F6;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.accept-btn {
+    background-color: #10B981;
+}
+
+.ignore-btn {
+    background-color: #EF4444;
+}
+
+/* Main Content (Feed) Styles */
+.network-feed {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.network-feed h2 {
+    margin-bottom: 20px;
+    color: #1F2937;
+}
+
+.connection-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.connection-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.occupation {
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.message-btn {
+    background-color: #1F2937;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: auto;
+}
